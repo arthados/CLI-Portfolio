@@ -146,51 +146,6 @@ function Terminal({ exitCLI }) {
             </div>
           );
           break;
-          output = (
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                gap: "15px",
-                margin: "10px 0",
-              }}
-            >
-              {experience.map((job, idx) => (
-                <div
-                  key={idx}
-                  style={{
-                    borderLeft: "2px solid var(--accent-color)",
-                    paddingLeft: "10px",
-                  }}
-                >
-                  <span
-                    style={{ color: "var(--text-primary)", fontWeight: "bold" }}
-                  >
-                    {job.role} @ {job.company}
-                  </span>
-                  <span
-                    style={{
-                      color: "var(--text-secondary)",
-                      fontSize: "0.85rem",
-                      display: "block",
-                    }}
-                  >
-                    {job.timeline}
-                  </span>
-                </div>
-              ))}
-              <p
-                style={{
-                  fontSize: "0.85rem",
-                  color: "var(--text-secondary)",
-                  fontStyle: "italic",
-                }}
-              >
-                Type 'close' to view full details on standard page.
-              </p>
-            </div>
-          );
-          break;
         case "projects":
           output = (
             <div style={{ display: "flex", flexDirection: "column", gap: "25px", margin: "10px 0" }}>

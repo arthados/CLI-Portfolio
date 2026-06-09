@@ -41,7 +41,7 @@ export const projects = [
   {
     title: "Audit Sphere | GRC Platform",
     techStack: ["C#", ".NET", "MySQL"],
-    github: "https://github.com/arthados/audit-sphere",
+    github: "https://github.com/arthados/GRC",
     description: [
       "Architected and deployed a comprehensive Governance, Risk, and Compliance (GRC) desktop application to automate organizational compliance assessments for NIST and ISO 27001 frameworks.",
       "Engineered a robust Role-Based Access Control (RBAC) system that manages auditor permissions, control mapping, and audit lifecycle execution, ensuring data integrity across organizational hierarchies.",

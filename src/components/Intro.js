@@ -11,7 +11,7 @@ function Intro() {
           <span style={{ width: "12px", height: "12px", borderRadius: "50%", background: "#22c55e" }}></span>
         </div>
         <div style={{ background: "var(--code-bg)", color: "var(--code-text)", fontFamily: "var(--font-mono)", padding: "40px", borderRadius: "0 0 8px 8px", textAlign: "left", boxShadow: "0 20px 40px rgba(0,0,0,0.4)" }}>
-          <p style={{ color: "var(--text-secondary)" }}>// Welcome to the terminal</p>
+          <p style={{ color: "var(--text-secondary)" }}>{/* Welcome to the terminal */}</p>
           <h1 style={{ color: "var(--text-primary)", fontSize: "2.5rem", margin: "10px 0" }}>
             Hi, I'm <span style={{ color: "var(--accent-color)" }}>Karma Kansara</span>.
           </h1>
